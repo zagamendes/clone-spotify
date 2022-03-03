@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:30px;
+    align-items: center;
+    padding: 20px 30px;
+}
+.header-left{
+    min-width: 230px;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+}
+.header-right h4{
+    margin-left: 10px;
+}
+
+@media (max-width:415px){
+    .header{
+        padding: 20px 15px;
+    }
+    .header-left{
+        min-width: 140px;
+    }
+
+}

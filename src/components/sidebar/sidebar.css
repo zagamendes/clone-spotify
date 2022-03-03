@@ -1,0 +1,22 @@
+.sidebar{
+    background-color: #040404;
+    height:100vh;
+    padding: 20px;
+    
+}
+.sidebar-option{
+    color: grey;
+    cursor: pointer;
+    height:40px;
+    transition: all .2s;
+    display:flex;
+    margin-left: 10px;
+    align-items: center;
+}
+.sidebar-option h4, .sidebar-option p{
+    margin: 0;
+    margin-left: 5px;
+}
+.sidebar-option:hover{
+    color: white;
+}

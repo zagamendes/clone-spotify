@@ -1,0 +1,21 @@
+.song-row{
+    display: flex;
+    margin-left: 20px;
+    padding: 20px;
+    align-items: flex-start;
+    color: white;
+    cursor: pointer;
+    transition: all .2s;
+}
+.song-row:hover{
+    background-color: black;
+    opacity: .8;
+}
+.song-info{
+    margin-left: 20px;
+}
+.song-info >p {
+    font-size: 14px;
+    margin-top: 3px;
+    color: grey;
+}
