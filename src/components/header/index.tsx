@@ -13,7 +13,7 @@ const Header = () => {
         <div className="header">
             <div className="header-left">
                 <Form onSubmit={(e) => e.preventDefault()}>
-                    <Form.Group className="mb-3 sticky-top" controlId="formBasicEmail">
+                    <Form.Group className="sticky-top" controlId="formBasicEmail">
 
                         <Form.Control type="search" placeholder="buscar por músicas/artistas" value={search} onChange={e => setSearch(e.target.value)} />
                         <div className="flex-grow-1 bg-black" style={{ overflowY: "auto", position: "absolute", zIndex: 10 }}>

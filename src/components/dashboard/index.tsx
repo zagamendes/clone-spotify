@@ -8,6 +8,7 @@ import SpotifyWebApi from "spotify-web-api-node"
 import Sidebar from "../sidebar"
 import Body from "../body"
 import Footer from "../footer"
+import { Song } from "../../types/userInfo"
 
 const spotifyWebApi = new SpotifyWebApi({ clientId: "260418c1d2f24e039473b58c493d7aac" })
 const searchContext = createContext(null)

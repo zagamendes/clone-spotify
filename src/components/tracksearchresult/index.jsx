@@ -5,7 +5,7 @@ const TrackSearchResult:FC<any> = ({ track, chooseTrack }) => {
         chooseTrack(track)
     }
     return (
-        <div className="d-flex m-2 align-items-center" style={{ cursor: "pointer" }} onClick={() => handlePlay()}>
+        <div className="d-flex m-2 align-items-center" style={{ cursor: "pointer", width: "40vw" }} onClick={() => handlePlay()}>
             <img src={track.albumUrl} className="img-fluid" />
             <div className="m-3">
                 <div>{track.title}</div>

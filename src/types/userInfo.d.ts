@@ -53,7 +53,7 @@ interface Artist {
     uri: string
   }
 
-interface Song {
+export interface Song {
     album_type: string
     artists: Artist[]
     available_markets?: string[]

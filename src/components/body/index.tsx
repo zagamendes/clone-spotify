@@ -5,6 +5,7 @@ import FavoriteIcon from "@mui/icons-material/Favorite"
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz"
 import "./body.css"
 import SongRow from "../songRow"
+import { Song } from "../../types/userInfo"
 interface bodyProps{
     discoverWeekly:Song[]
 }

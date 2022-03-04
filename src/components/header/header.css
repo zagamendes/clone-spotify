@@ -24,5 +24,8 @@
     .header-left{
         min-width: 140px;
     }
+    .header-right h4{
+        display: none;
+    }
 
 }
